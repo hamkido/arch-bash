@@ -1,4 +1,5 @@
 * normal with ext4
+
 timedatectl set-ntp true
 fdisk /dev/sda
 o
@@ -34,3 +35,4 @@ pacman --noconfirm --needed -S grub && grub-install --target=i386-pc /dev/sda1 &
 vim /mnt/etc/hostname
 exit 
 reboot
+
